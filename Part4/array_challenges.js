@@ -27,4 +27,22 @@ let teaTypes = ['herbal tea','white tea','masala chai'];
 
 teaTypes[1] = "jasmine tea";
 
-console.log(teaTypes);
+// console.log(teaTypes);
+
+// 4. Declare an array named 'cityVisisted' containing 'Mumbai' and 'Sydney'
+//    Add 'Berlin' to the array using 'push' method
+
+let cityVisisted = ['Mumbai', 'Sydney'];
+cityVisisted.push('Berlin');
+
+// console.log(cityVisisted);
+
+// 5. You have an array named 'teaOrders' with 'chai',   'iced tea', 'matcha', and 'earl grey'.
+//    Remove the last element of the array using the 'pop'
+//    method and store it in a variable named 'lastOrder'.
+
+let teaOrders = ['chai', 'iced tea', 'matcha', 'earlgrey'];
+let lastOrder = teaOrders.pop();
+
+console.log(lastOrder);
+
